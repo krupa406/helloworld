@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export LC_ALL="C.UTF-8"
 if [ -z "$ENV" ]; then
     echo "ENV variable not found. Please set it and try again"
     exit 1
